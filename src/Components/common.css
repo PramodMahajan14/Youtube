@@ -1,0 +1,6 @@
+#mobile-menu a {
+  text-align: -webkit-center;
+}
+.hideScrollBar::-webkit-scrollbar {
+  display: none;
+}
