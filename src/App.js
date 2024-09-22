@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Home from "./Pages/Home";
+// import Home from "./Pages/Home";
 import Header from "./Components/Header";
 import Body from "./Components/Body";
 import { Provider } from "react-redux";
