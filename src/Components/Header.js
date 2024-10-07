@@ -5,6 +5,8 @@ import { ReactComponent as Burger } from "../Images/burger.svg";
 import { ReactComponent as Headermenu } from "../Images/headermenu.svg";
 import { ReactComponent as UserAvatar } from "../Images/user.svg";
 import { ReactComponent as AddIcon } from "../Images/Add.svg";
+import { ReactComponent as ShortIcon } from "../Images/short.svg";
+import { ReactComponent as SubscriptionIcon } from "../Images/subscription.svg";
 import "./common.css";
 import { useDispatch, useSelector } from "react-redux";
 import { toggleMenu } from "../Utils/appSlice";
@@ -198,15 +200,15 @@ const Header = () => {
               <p className="text-center text-xs align- ">Home</p>
             </a>
             <a href="#" class="px-2 py-1 block">
-              <HomeIcon />
-              <p className="text-center text-xs align- ">Home</p>
+              <ShortIcon />
+              <p className="text-center text-xs align- ">Short</p>
             </a>
             <a href="#" class=" px-1 py-1">
               <AddIcon />
             </a>
             <a href="#" class="px-2 py-1">
-              <HomeIcon />
-              <p className="text-center text-xs align- ">Home</p>
+              <SubscriptionIcon />
+              <p className="text-center text-xs align- ">Subscription</p>
             </a>
             <a href="#" class=" px-2 py-1">
               <UserAvatar />

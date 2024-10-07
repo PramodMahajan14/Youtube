@@ -12,6 +12,9 @@ import { ReactComponent as BulbIcon } from "../Images/bulboff.svg";
 import { ReactComponent as MicIcon } from "../Images/mic.svg";
 import { ReactComponent as AddIcon } from "../Images/Add.svg";
 import { ReactComponent as CupIcon } from "../Images/cup.svg";
+import { ReactComponent as ShortIcon } from "../Images/short.svg";
+import { ReactComponent as SubscriptionIcon } from "../Images/subscription.svg";
+import { ReactComponent as LibraryIcon } from "../Images/library.svg";
 import { useSelector } from "react-redux";
 const SideBar = ({ Collaped }) => {
   const IsCollapse = useSelector((store) => store.app.sideMenuCollaped);
@@ -27,17 +30,17 @@ const SideBar = ({ Collaped }) => {
           <p className=" ml-5  text-l ">Home</p>
         </li>
         <li className="flex cursor-pointer justify-start p-1  my-1 mx-1 items-center hover:bg-slate-200 rounded">
-          <HomeIcon />
+          <ShortIcon />
           <p className=" ml-5 text-l ">Short</p>
         </li>
         <li className="flex cursor-pointer justify-start p-1  my-1 mx-1 items-center hover:bg-slate-200 rounded">
-          <HomeIcon />
+          <SubscriptionIcon />
           <p className=" ml-5 text-l ">Subcription</p>
         </li>
       </ul>
       <ul className="w-full border-b-2 block">
         <li className="flex cursor-pointer justify-start p-1  my-1 mx-1 items-center hover:bg-slate-200 rounded">
-          <HomeIcon />
+          <LibraryIcon />
           <p className=" ml-5  text-l ">Library</p>
         </li>
         <li className="flex cursor-pointer justify-start p-1  my-1 mx-1 items-center hover:bg-slate-200 rounded">
